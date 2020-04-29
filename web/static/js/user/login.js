@@ -33,6 +33,7 @@ var user_login_ops={
                 dataType:"json",
                 success:function(reponse){
                     btn_target.removeClass('disabled')
+                    alert(reponse.msg)
                     console.log(reponse)
                 }
             })
