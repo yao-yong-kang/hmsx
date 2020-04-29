@@ -32,7 +32,8 @@ var user_login_ops={
                 data:{"login_name":login_name,"login_pwd":login_pwd},
                 dataType:"json",
                 success:function(reponse){
-                    console.log(rrrrrr)
+                    btn_target.removeClass('disabled')
+                    console.log(reponse)
                 }
             })
         })
